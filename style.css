@@ -1,0 +1,149 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  max-width: 1440px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 600px;
+  width: 340px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  position: relative;
+}
+
+section img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#view {
+  width: 50px;
+  height: 50px;
+  margin-left: 125px;
+  margin-top: 125px;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: hsl(178, 100%, 50%);
+  ;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+
+section div img:hover {
+  opacity: .6;
+  transition: 5s;
+  cursor: pointer;
+}
+
+.overlay:hover {
+  opacity: .6;
+  transition: 1s;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+  cursor: pointer;
+}
+
+#three:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+section h1 {
+  margin-left: 20px;
+  color: white;
+}
+
+section p {
+  color: hsl(215, 51%, 70%);
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+section span {
+  color: hsl(178, 100%, 50%);
+}
+
+section span img {
+  width: 10px;
+  height: 15px;
+}
+
+section #one {
+  color: hsl(215, 51%, 70%);
+  margin-left: 90px;
+}
+
+section #one img {
+  height: 15px;
+  width: 15px;
+}
+
+#verticle-line {
+  background-color: hsl(215, 32%, 27%);
+  width: 290px;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+}
+
+footer #first {
+  position: relative;
+  bottom: 10px;
+}
+
+footer #two {
+  color: hsl(215, 51%, 70%);
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+footer #three {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 450px) {
+  main {
+    width: 375px;
+  }
+}
